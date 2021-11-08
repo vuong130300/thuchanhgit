@@ -1,8 +1,14 @@
 #include <iostream>
 using namespace std;
-int tong(int a, int b);
+
+
 int hieu(int a, int b){
 	return a-b;)
+
+int tong(int a, int b){
+return a+b;}
+
+
 
 int main()
 {
@@ -14,9 +20,14 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";	
 	cin >> phepToan;
+
 	if(phepToan=="-")
 	
 		cout<<hieu(a,b);
+
+	if(pheptoan=="+")
+		cout<<tong(a,b);
+
 	system("pause");
 	return 0;
 }
